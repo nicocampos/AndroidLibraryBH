@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="colorPrimary">#ff9052</color>
+    <color name="colorPrimaryDark">#ff9052</color>
+    <color name="colorAccent">#F95F62</color>
+    <color name="colorRecentApp">#4FC1C1</color>
+    <color name="actionbar_title_text">#212121</color>
+    <color name="detail_title">#606162</color>
+    <color name="gradient_grey">#F2F2F2</color>
+    <color name="actionbar_subtitle_text">#616161</color>
+    <color name="fees_chart_green">#6DAF25</color>
+    <color name="green_toast">#75B62F</color>
+    <color name="info_blue">#486EBD</color>
+
+    <color name="transparent80">#80000000</color>
+    <color name="transparent_white">#ffffffff</color>
+    <color name="cardview_title">#231F20</color>
+    <color name="cardview_account">#565656</color>
+
+    <color name="snackbar_error_notification">#ef5350</color>
+
+    <color name="recyclerview_background">#EEEEEE</color>
+    <color name="background_banner_security_color">#AD1B2D</color>
+
+    <color name="cardview_title_color">#ff9052</color>
+    <color name="icons_color">#ff9052</color>
+
+    <color name="icons_color1">#616161</color>
+    <color name="grey_600">#757575</color>
+
+    <color name="negative_numbers">#F44336</color>
+    <color name="positive_numbers">#4CAF50</color>
+
+    <color name="background">#F0EFF4</color>
+    <color name="dark_grey">#424242</color>
+    <color name="sonic_silver">#8E8E8E</color>
+    <color name="description_grey">#9B9B9B</color>
+    <color name="light_grey">#a1a1a1</color>
+    <color name="grey">#e0e0e0</color>
+    <color name="green">#77D353</color>
+    <color name="android_default_disabled">#BDBDBD</color>
+    <color name="selected_false">#7C7C7C</color>
+    <color name="transparent_grey">#B4333333</color>
+    <color name="selected_true">#F68F55</color>
+    <color name="general_title">#ff9052</color>
+    <color name="grayWildSand">#f6f6f6</color>
+    <color name="blue_royal">#4a90e2</color>
+    <color name="red_error">#AD1B2D</color>
+
+    <color name="bottombar_background">#FFFFFF</color>
+    <color name="voucher_background">#eeeeee</color>
+
+    <color name="okOperationBckScreen">#006CC7</color>
+    <color name="okOperationBckBtns">#3D86C3</color>
+
+    <color name="blueBeneficiaries">#0C768A</color>
+
+    <color name="failedOperationBckScreen">#F45F61</color>
+    <color name="failedOperationBckBtns">#F08C8E</color>
+
+    <color name="orange">#F37321</color>
+    <color name="orange_opacity_5">#F2F37321</color>
+    <color name="orange_blaze">#FA6400</color>
+    <color name="orange_detail">#F37320</color>
+    <color name="custom_tabs_bar_color">#F96400</color>
+    <color name="orange_grandient_start">#FE381C</color>
+    <color name="orange_grandient_end">@color/orange_blaze</color>
+    <color name="orange_account_background">#33ffffff</color>
+
+    <color name="half_colonial_white">#fdf0da</color>
+    <color name="navajo_white">#ffe1af</color>
+
+    <color name="separator">#E5E5E5</color>
+
+    <color name="lynx_white">#F7F7F7</color>
+
+    <color name="grey_20">#f4f3f3</color>
+    <color name="grey_94">#f0f0f0</color>
+    <color name="grey_700">#969FAA</color>
+    <color name="grey_800">#555555</color>
+    <color name="grey_900">#666666</color>
+    <color name="grey_100">#F2F1F1</color>
+
+    <color name="golden_700D">#9E700D</color>
+
+    <color name="snow">#F9F9F9</color>
+    <color name="gray_500">#9B9B9B</color>
+    <color name="bright_gray">#EFF0F0</color>
+    <color name="quick_silver">#A7A5A7</color>
+    <color name="charcoal">#4A4A4A</color>
+    <color name="pending_to_pay_red">#AD1B2D</color>
+    <color name="eclipse">#3C3C3C</color>
+
+    <color name="gray_line">#D8D8D8</color>
+    <color name="gray_line_2">#DDDDDD</color>
+
+    <color name="azure">#EFF0F0</color>
+    <color name="blue_wird">#343F4B</color>
+
+    <color name="snow_pink">#fef4f4</color>
+
+    <color name="fix_terms_graph_blue">#0C768A</color>
+    <color name="fix_terms_graph_red">#D0021B</color>
+    <color name="fix_terms_graph_grey">#DEE3E9</color>
+    <color name="fix_terms_pending">#BCBCBC</color>
+    <color name="ligth_orange">#faa766</color>>
+
+    <!-- Modificacion de limites TD-->
+    <color name="debit_card_limit_actual">#269B9B9B</color>
+    <color name="debit_card_limit_no_selected">#FFFFFF</color>
+    <color name="debit_card_limit_selected">#ff9052</color>
+
+    <color name="echeq_state_red">#D0021B</color>
+    <color name="echeq_state_blue">#0C768A</color>
+    <color name="echeq_state_grey">#969FAA</color>
+
+    <!-- Color de entrega de delivery-->
+    <color name="green_delivery">#70bd1b</color>
+    <color name="gray_delivery">#e2e2e2</color>
+    <color name="orange_delivery">#f3ae21</color>
+    <color name="black_delivery">@color/charcoal</color>
+    <color name="black">#000000</color>
+    <color name="red_delivery">#d04051</color>
+    <color name="gradient_black">#3C3C3C</color>
+    <color name="gradient_golden">#E7BA59</color>
+    <color name="gradient_silver">#AAAAAA</color>
+    <color name="gradient_white">#F8F8F8</color>
+    <color name="gradient_pink">#FAF0F2</color>
+
+    <!-- Color de stop Debit -->
+    <color name="gray_stop_debit">#999999</color>
+    <color name="orange_stop_debit">#ff9052</color>
+    <color name="title_loading">#5a5a5a</color>
+    <color name="sub_title_loading">#8b8b8b</color>
+    <color name="orange_button_loading">#f37320</color>
+
+    <!-- Color de reposicion TD -->
+    <color name="gray_reposition_TD">#e1e1e1</color>
+    <color name="gray_white_reposition_TD">#f5f5f5</color>
+    <color name="gray_tittle_reposition_TD">#85858585</color>
+    <color name="gray_cancel_modal_reposition_TD">#909090</color>
+    <color name="orange_accept_modal_reposition_TD">#f37320</color>
+    <color name="gray_reposition_td_number_card">#333333</color>
+    <color name="background_success_reposition_td">#89be50</color>
+    <color name="background_fail_reposition_td">#f25153</color>
+
+    <color name="aqua_green_insurance">#F8FFF4</color>
+    <color name="background_view_separator">#E5E5E5</color>
+    <color name="dusty_grey">#9b9b9b</color>
+    <color name="shuttle_gray">#606162</color>
+    <color name="other_light_gray">#868686</color>
+    <color name="text_color_gray">@color/dusty_grey</color>
+    <color name="text_color_dark_gray">@color/shuttle_gray</color>
+    <color name="text_color_black_darker">@color/charcoal</color>
+    <color name="text_color_light_gray">@color/quick_silver</color>
+    <color name="text_color_gray_900">@color/grey_900</color>
+    <color name="border_light_gray">#EDEDED</color>
+
+    <!-- Consolidado -->
+    <color name="consolidated_background">@color/lynx_white</color>
+
+    <color name="color_background_screen">@color/snow</color>
+    <color name="voucher_separator">#CCC</color>
+
+    <color name="mime_shaft">#333333</color>
+    <color name="neutral_gray">#979797</color>
+    <color name="dark_gray">#aaaaaa</color>
+    <color name="card_movements_end_grey">#F8F8F8</color>
+    <color name="silver_chalice">#B0B0B0</color>
+    <color name="silver_gray">#c8c7c7</color>
+    <color name="gallery_grey">#eeeeee</color>
+    <color name="wild_sand_gray">#f5f5f5</color>
+
+    <color name="olive_green">#6daf25</color>
+    <color name="light_green">#3ABF9E</color>
+
+    <color name="monza_red">#d0021b</color>
+    <color name="orange_tango">#F37320</color>
+    <color name="alice_blue_desat">#f4f8fd</color>
+    <color name="faux_cyan_blue_azure">#3a77bf</color>
+    <color name="vivid_red">#d3000d</color>
+    <color name="gray_modo_active">#1C1C1C</color>
+
+    <color name="olive_green_transparent_10">#1a6daf25</color>
+
+    <color name="valid_green">@color/olive_green</color>
+    <color name="invalid_red">@color/color_red_error</color>
+
+    <color name="white_transparent">#CCFFFFFF</color>
+    <color name="black_transparent_60">#99000000</color>
+    <color name="red_cinnabar">#ea3939</color>
+    <color name="fire_brick">#D0021B</color>
+    <color name="green_apple">#78b342</color>
+    <color name="gray_acadia">#45515c</color>
+
+    <!-- PFM colors -->
+    <color name="color_pfm_category_supermarket">#FFCC5000</color>
+    <color name="color_pfm_category_home">#FFF37320</color>
+    <color name="color_pfm_category_services">#FFFF9754</color>
+    <color name="color_pfm_category_health">#FF89991F</color>
+    <color name="color_pfm_category_education">#FFA9BF13</color>
+    <color name="color_pfm_category_cars_transport">#FFC4D936</color>
+    <color name="color_pfm_category_clothes">#FFCC4755</color>
+    <color name="color_pfm_category_electronics">#FFE36B77</color>
+    <color name="color_pfm_category_entertain">#FFFFA6AF</color>
+    <color name="color_pfm_category_restaurants">#FF8C4C71</color>
+    <color name="color_pfm_category_trips_tourism">#FFEB0C6C</color>
+    <color name="color_pfm_category_transfers">#FF359D9F</color>
+    <color name="color_pfm_category_inversions">#FF55C595</color>
+    <color name="color_pfm_category_loans">#FF7CE495</color>
+    <color name="color_pfm_category_others">#FFCFF4D2</color>
+    <color name="color_pfm_category_salary">#FF216073</color>
+    <color name="color_pfm_category_sales">#FFF37320</color>
+    <color name="color_pfm_category_no_data">#FFd8d8d8</color>
+    <color name="color_pfm_category_gift_donations">#FFE6B1CF</color>
+
+    <color name="color_pfm_fixed_holding_title_values_options">#f57300</color>
+    <color name="color_pfm_fixed_holding_title_values_card_title">#9b9b9b</color>
+    <color name="color_pfm_fixed_holding_title_values_legal_desc">#aaaaaa</color>
+    <color name="color_pfm_fixed_operations_following_title_values_in">#f5a623</color>
+    <color name="color_pfm_fixed_operations_following_title_values_done">#8aab6a</color>
+    <color name="color_pfm_fixed_operations_following_title_values_rejected">#d0021b</color>
+    <color name="color_pfm_fixed_operations_following_rejected">#cdcccd</color>
+    <color name="color_pfm_buy_in_dollar_dialog">#787878</color>
+    <color name="color_dialog_title">#4A4A4A</color>
+
+    <color name="color_pfm_fci_number_nine">#97C861</color>
+    <color name="color_pfm_fci_number_five">#FF4C62</color>
+    <color name="color_pfm_fci_number_one">#FFB844</color>
+    <color name="color_pfm_fci_number_fourteen">#488CDC</color>
+    <color name="color_pfm_fci_number_ten">#E79B1E</color>
+    <color name="color_pfm_fci_number_ten_opacity">#1DE79B1E</color>
+    <color name="color_pfm_fci_number_six">#F37320</color>
+    <color name="color_pfm_fci_number_fifteen">#0BEAE9</color>
+    <color name="color_pfm_fci_number_eleven">#BC79F8</color>
+    <color name="color_pfm_fci_number_seven">#DB13A3</color>
+    <color name="color_pfm_fci_number_eight">#37D894</color>
+    <color name="color_pfm_fci_advice_check">#D0021B</color>
+
+    <!-- Color de login -->
+    <color name="color_login_title">#4A4A4A</color>
+    <color name="color_text_login">#989898</color>
+    <color name="color_text_contactus_description">#454545</color>
+    <color name="color_text_subtitle_description">#888888</color>
+
+    <!-- Color Biometric Record-->
+    <color name="color_text_description_about">#7E7E7E</color>
+    <color name="color_blue_sky">#F4F8FD</color>
+
+    <color name="fci_header_title">#ACACAC</color>
+    <color name="fci_profile_title">#625D5D</color>
+    <color name="fci_view_line_guide">#EAEAEA</color>
+    <color name="fci_warning_advice">#D0021B</color>
+    <color name="fci_rescue_warning_total">#3A77BF</color>
+
+    <color name="btn_orange_text">#F57300</color>
+    <color name="btn_orange_number">#F37320</color>
+    <color name="color_snack_bar_config">#6DAF25</color>
+    <color name="error_color_snack_bar_config">#AD1B2D</color>
+
+    <color name="txt_gray_config">#9B9B9B</color>
+
+    <color name="title_otp_error">#4A4A4A</color>
+    <color name="subtitle_otp_error">#808181</color>
+
+    <color name="color_red_error">#FE381C</color>
+
+    <color name="color_red_error_box">#FFF6F6</color>
+
+    <color name="color_red_error_unbox">#D0021B</color>
+    <color name="color_dollar_mep_amount">#8DBA60</color>
+    <color name="color_dollar_mep_dollar_value">#3886EA</color>
+
+    <color name="color_floating_action_button">#FB5E05</color>
+
+    <color name="color_counter_words">#959595</color>
+
+    <color name="color_title_dialog">#5C5C5C</color>
+    <color name="grey_buho_facil">#F2F1F1</color>
+
+    <color name="blue_reset_password_pin_pil">#3A77BF</color>
+    <color name="reset_password_pin_pil_options">#818181</color>
+    <color name="onboard_color_default">#ff9052</color>
+
+
+    <color name="gray_primary">#575756</color>
+    <color name="gray_inactive">#DEDEDE</color>
+    <color name="orange_1">#F37320</color>
+    <color name="gray_opaque">#D9D9D9</color>
+
+    <color name="onboard_bg">#FFFFFF</color>
+    <color name="onboard_bg_gray">#FAFAFA</color>
+    <color name="onboard_libertad">#E3001B</color>
+    <color name="text_data_return">#3A77BF</color>
+    <color name="text_data_getpoint">#606162</color>
+    <color name="color_data_getchange">#AAAAAA</color>
+    <color name="investment_variation_green">#6DAF25</color>
+    <color name="investment_variation_red">#DE4356</color>
+    <color name="investment_variation_neutral">#58595B</color>
+    <color name="tooltipBg">#3A77BF</color>
+    <color name="tooltipBgDark">#983d00</color>
+    <color name="tooltipstransparent">#CCDDDDDD</color>
+    <color name="tooltipstransparentBuho">#242424</color>
+    <color name="black_libertad">#303030</color>
+    <color name="light_transparent">#16000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape
+            android:shape="ring"
+            android:innerRadius="@dimen/no_dimen"
+            android:thickness="@dimen/margin_small_6"
+            android:useLevel="false">
+            <stroke android:width="@dimen/margin_small_1" android:color="@color/silver_gray"/>
+            <solid android:color="@color/silver_gray"/>
+        </shape>
+    </item>
+    <item>
+        <shape
+            android:shape="ring"
+            android:innerRadius="@dimen/no_dimen"
+            android:thickness="@dimen/margin_small_6"
+            android:useLevel="false">
+            <stroke android:width="@dimen/margin_small_1" android:color="@color/silver_gray"/>
+            <solid android:color="@color/white"/>
+        </shape>
+    </item>
+</selector>

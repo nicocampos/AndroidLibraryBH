@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <path
+        android:fillType="evenOdd"
+        android:strokeColor="#555555"
+        android:strokeWidth="2.575"
+        android:pathData="M62.43,62.37l-20.02-0.03" />
+    <path
+        android:fillType="evenOdd"
+        android:strokeColor="#555555"
+        android:strokeWidth="2.575"
+        android:pathData="M23.5,62.3l-4.02-0.01c0,0-3.75,0.11-3.75-4.91V28.47c0,0-0.33-4.24,3.42-4.24h48.11 c0,0,1.65-0.11,3.53,1.79l15.89,16.08c0,0,1.32,1.12,1.32,2.9v14.07c0,0,0,3.35-3.97,3.35l-2.7,0" />
+    <path
+        android:fillType="evenOdd"
+        android:strokeColor="#555555"
+        android:strokeWidth="2.575"
+        android:pathData="M88,46.68H67.04c-1.32,0-2.39-1.13-2.39-2.52V32.98c0-1.11,0.86-2.02,1.91-2.02h9.24" />
+    <path
+        android:fillType="evenOdd"
+        android:strokeColor="#555555"
+        android:strokeWidth="2.575"
+        android:pathData="M23.54,62.35c0,2.5,0.99,4.89,2.76,6.66c1.76,1.76,4.16,2.76,6.66,2.76 c2.5,0,4.89-0.99,6.66-2.76c1.76-1.76,2.76-4.16,2.76-6.66c0-2.5-0.99-4.89-2.76-6.66c-1.76-1.76-4.16-2.76-6.66-2.76 c-2.5,0-4.89,0.99-6.66,2.76C24.54,57.46,23.54,59.85,23.54,62.35z" />
+    <path
+        android:fillType="evenOdd"
+        android:strokeColor="#555555"
+        android:strokeWidth="2.575"
+        android:pathData="M62.46,62.35c-0.01,1.99,0.62,3.93,1.79,5.54c1.17,1.61,2.82,2.81,4.71,3.43 c1.89,0.62,3.93,0.62,5.83,0c1.89-0.62,3.54-1.82,4.71-3.43c1.17-1.61,1.79-3.55,1.79-5.54c0-2.49-0.99-4.88-2.76-6.64 c-1.76-1.76-4.16-2.75-6.66-2.75c-2.5,0-4.89,0.99-6.66,2.75C63.46,57.47,62.46,59.86,62.46,62.35z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:strokeColor="#555555"
+        android:strokeWidth="2.575"
+        android:strokeLineCap="round"
+        android:pathData="M50.75,24.22v22.46 M14.67,58.47H8 M14.67,53.98h-4.45 M14.67,48.37h-2.22" />
+</vector>

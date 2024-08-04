@@ -1,0 +1,7 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/transparen_menu_consolidate"/> <!-- Fondo personalizado -->
+    <item
+        android:drawable="@drawable/payqr_new"
+        android:gravity="center"/>
+
+</layer-list>

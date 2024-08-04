@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="@dimen/margin_normal_20"
+        android:right="@dimen/margin_normal_20">
+
+        <shape>
+            <solid
+                android:color="@color/white"/>
+            <corners
+                android:radius="@dimen/radius_normal_15"/>
+            <padding
+                android:top="@dimen/margin_big_22"
+                android:bottom="@dimen/margin_big_22"
+                android:left="@dimen/margin_normal_15"
+                android:right="@dimen/margin_normal_15"/>
+        </shape>
+    </item>
+</layer-list>

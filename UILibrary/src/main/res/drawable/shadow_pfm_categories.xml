@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape>
+            <padding android:top="@dimen/height_shadow_pfm_categories" />
+            <solid android:color="#00CCCCCC" />
+            <corners android:radius="@dimen/margin_normal_20" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:top="@dimen/height_shadow_pfm_categories" />
+            <solid android:color="#05CCCCCC" />
+            <corners android:radius="@dimen/margin_normal_20" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:top="@dimen/height_shadow_pfm_categories" />
+            <solid android:color="#10CCCCCC" />
+            <corners android:radius="@dimen/margin_normal_20" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:top="@dimen/height_shadow_pfm_categories" />
+            <solid android:color="#15CCCCCC" />
+            <corners android:radius="@dimen/margin_normal_20" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:top="@dimen/height_shadow_pfm_categories" />
+            <solid android:color="#20CCCCCC" />
+            <corners android:radius="@dimen/margin_normal_20" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:top="@dimen/height_shadow_pfm_categories" />
+            <solid android:color="#25CCCCCC" />
+            <corners android:radius="@dimen/margin_normal_20" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <solid android:color="@android:color/white" />
+
+            <corners
+                android:topLeftRadius="@dimen/margin_normal_20"
+                android:topRightRadius="@dimen/margin_normal_20"/>
+        </shape>
+    </item>
+
+</layer-list>

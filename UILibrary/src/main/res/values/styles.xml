@@ -1,0 +1,1749 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+    </style>
+
+    <style name="AppThemeLogin" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="ThemeSpinner">
+        <!-- Color when pressed -->
+        <item name="colorAccent">#47525E</item>
+        <!-- Default color for the dropdown arrow and line -->
+        <item name="colorControlNormal">#47525E</item>
+    </style>
+    <style name="BuhuPoint" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="TextLabel">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">#8492A6</item>
+        <item name="android:textSize">20sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/grey_600</item>
+    </style>
+
+    <style name="TextLabelLogin">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/color_text_login</item>
+        <item name="android:textSize">16sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/color_text_login</item>
+        <item name="colorControlNormal">@color/color_text_login</item>
+        <item name="colorControlActivated">@color/color_text_login</item>
+    </style>
+
+    <style name="MyTabLayout" parent="Base.Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/MyTabTextAppearance</item>
+    </style>
+
+    <style name="MyTabTextAppearance" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/text_size_normal_16</item>
+        <item name="android:textColor">"@color/orange_tango"</item>
+        <item name="android:hint">@color/grey</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+
+    <style name="TextLabelUpdatePhone">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/txt_gray_config</item>
+        <item name="android:textSize">16sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/txt_gray_config</item>
+        <item name="colorControlNormal">@color/txt_gray_config</item>
+        <item name="colorControlActivated">@color/txt_gray_config</item>
+    </style>
+
+    <style name="FormTextLabel">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">#8492A6</item>
+        <item name="android:textSize">20sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">#969FAA</item>
+        <item name="colorControlNormal">#969FAA</item>
+        <item name="colorControlActivated">@color/dark_grey</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Parent theme sets colorControlNormal to textColorPrimary. -->
+    <style name="ThemeOverlay.MyApp.ActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/actionbar_title_text</item>
+        <item name="android:textColorSecondary">@color/actionbar_subtitle_text</item>
+    </style>
+
+    <style name="ThemeOverlay.MyApp.OrangeActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/dusty_grey</item>
+    </style>
+
+    <style name="cardViewProductItemsTexts">
+        <item name="android:textColor">#47525E</item>
+        <item name="android:textSize">21sp</item>
+    </style>
+
+    <style name="cardViewProductItemsTextsAmountBig" parent="cardViewProductItemsTexts">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="cardViewProductItemsTextsAmountSmall" parent="cardViewProductItemsTextsAmountBig">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="cardViewProductItemsTextsSmall" parent="cardViewProductItemsTexts">
+        <item name="android:textColor">#969FAA</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="cardViewProductItemsPaddingLeftRight">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <style name="product_detail_text_color_key">
+        <item name="android:textSize">@dimen/text_size_small_14</item>
+        <item name="android:textColor">@color/dusty_grey</item>
+    </style>
+
+    <style name="voucher_detail_text_style">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="product_detail_credit_card_payment_label">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#969FAA</item>
+    </style>
+
+    <style name="open_saving_subtitle">
+        <item name="android:textSize">@dimen/text_size_big_18</item>
+        <item name="android:textColor">@color/black_delivery</item>
+    </style>
+
+    <style name="product_detail_credit_card_payment_key" parent="cardViewProductItemsTextsAmountSmall">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#343F4B</item>
+    </style>
+
+    <style name="product_dimo_credit_card_payment_key" parent="cardViewProductItemsTextsAmountSmall">
+        <item name="android:textSize">@dimen/size_normal_20</item>
+        <item name="android:textColor">#343F4B</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="product_detail_text_color_value" parent="product_detail_text_color_key">
+        <item name="android:textColor">@color/shuttle_gray</item>
+    </style>
+
+    <style name="product_detail_text_color_header_price">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="product_detail_text_color_header_price_16">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="product_detail_text_color_header_price_secondary">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="sectionTitleText" parent="cardViewProductItemsTexts">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <!--<item beneficiaryName="android:padding">10dp</item>-->
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:textColor">@color/actionbar_title_text</item>
+    </style>
+
+    <style name="sectionTitleText_change_payment_method" parent="cardViewProductItemsTexts">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <!--<item beneficiaryName="android:padding">10dp</item>-->
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:textColor">@color/actionbar_title_text</item>
+    </style>
+
+    <style name="footerText" parent="cardViewProductItemsTexts">
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="full_width_button">
+        <item name="android:layout_height">45dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="primary_button">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/rounded_24_button</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="primary_button_outlined">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:background">@drawable/outline_background</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="box_outlined">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/charcoal</item>
+        <item name="android:background">@drawable/bg_outlined</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="full_width_outline_button" parent="full_width_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="background">@drawable/outline_background</item>
+    </style>
+
+    <style name="full_button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="full_width_button_orange_clear">
+        <item name="android:layout_height">45dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/general_title</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="green_full_width_button" parent="full_width_button">
+        <item name="android:background">#95CB81</item>
+    </style>
+
+    <style name="orange_full_width_button" parent="full_width_button">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="orange_full_width_button_more_rounded" parent="full_width_button">
+        <item name="android:background">@drawable/more_rounded_button</item>
+    </style>
+
+    <style name="orange_full_width_button_rounded_24" parent="full_width_button">
+        <item name="android:background">@drawable/rounded_24_button</item>
+    </style>
+
+    <style name="RoundedButtonOrange" parent="full_width_button">
+        <item name="android:background">@drawable/rounded_button_orange</item>
+    </style>
+
+    <style name="RoundedButtonWhite" parent="full_width_button">
+        <item name="android:background">@drawable/rounded_button_white</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="RoundedButtonOrangeLoan" parent="full_width_button">
+        <item name="android:background">@drawable/rounded_button_orange_loan</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="RoundedButtonTransparentLoan" parent="full_width_button">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/button_white_textcolor_selector_loan</item>
+    </style>
+
+    <style name="full_width_button_grey" parent="full_width_button">
+        <item name="android:layout_height">45dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">#FF757575</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="footer_small_text">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="miniFabBlue">
+        <item name="fab_size">mini</item>
+        <item name="fab_colorNormal">#108da4</item>
+        <item name="fab_colorPressed">#16acc7</item>
+        <item name="fab_colorRipple">#24bbd6</item>
+    </style>
+
+    <style name="miniFabWhite">
+        <item name="fab_size">mini</item>
+        <item name="fab_colorNormal">@android:color/white</item>
+        <item name="fab_colorPressed">#ddd</item>
+        <item name="fab_colorRipple">#ddd</item>
+    </style>
+
+    <style name="miniFabOrange">
+        <item name="fab_size">mini</item>
+        <item name="fab_colorNormal">@color/colorPrimary</item>
+        <item name="fab_colorPressed">@color/orange</item>
+        <item name="fab_colorRipple">#ffac7e</item>
+    </style>
+
+    <style name="spinnerItemStyle" parent="android:Widget.TextView.SpinnerItem">
+        <!--<item beneficiaryName="android:textColor">#77D353</item>-->
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="spinnerItemStyle_turnDiaHorario" parent="android:Widget.TextView.SpinnerItem">
+        <!--<item beneficiaryName="android:textColor">#77D353</item>-->
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="EditTextTheme">
+        <item name="colorAccent">#454545</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="EditTextAmountTheme">
+        <item name="colorAccent">#454545</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:digits">0123456789.,</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <style name="EditTextAmountTheme2">
+        <item name="colorAccent">#454545</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:digits">0123456789.,</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <style name="SwitchCompatStyle">
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <style name="datePicker" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="question_item">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#343F4B</item>
+    </style>
+
+    <style name="my_data_titles">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#47525E</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style>
+
+    <style name="my_config_options">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingRight">20dp</item>
+    </style>
+
+    <style name="my_config_options_arrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:tint">@color/grey_600</item>
+    </style>
+
+    <style name="my_config_options_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:layout_marginLeft">22dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="my_title_atention">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/text_size_medium_26</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="my_mensaje_atention_out">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/text_size_normal_15</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/gray_cancel_modal_reposition_TD</item>
+    </style>
+
+    <style name="item_title_14" parent="my_config_options_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+    </style>
+
+    <style name="trading_account_item_text" parent="my_config_options_text">
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginBottom">7dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="item_second_12" parent="trading_account_item_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:textColor">@color/grey_700</item>
+    </style>
+
+    <style name="trading_account_item_text_align" parent="my_config_options_text">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="debit_card_change_limit_values" parent="product_detail_credit_card_payment_label">
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+    <style name="title_insurance" parent="product_detail_credit_card_payment_label">
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+    <style name="fix_term_name_data" parent="my_config_options_text">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="fix_term_title" parent="debit_card_change_limit_values">
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">@font/roboto_light_font</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="fix_term_graffic_simple">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="detail_title_fix_term_achivement">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#969FAA</item>
+    </style>
+
+    <style name="custom_tab" parent="android:Widget">
+        <item name="tabBackground">@drawable/tab_cvu</item>
+        <item name="tabIndicatorColor">@color/colorPrimary</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="custom_consolidated_header_tab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorHeight">@dimen/elevation_2</item>
+        <item name="tabIndicatorColor">@color/white</item>
+    </style>
+
+    <style name="MineCustomTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="custom_consolidated_header_tab_text" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/white</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!--La idea es deprecar todos los estilos que estan arriba de esta linea, e unificarlos creando nuevos estilos mas homogenios -->
+    <style name="principal_fragment_title_text">
+        <item name="android:textColor">@color/actionbar_title_text</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_normal_15</item>
+        <item name="android:layout_marginRight">@dimen/margin_normal_15</item>
+        <item name="android:fontFamily">@font/roboto_light_font</item>
+        <item name="android:textSize">@dimen/big_title_fragment_text</item>
+    </style>
+
+    <style name="principal_fragment_comment_text">
+        <item name="android:textColor">@color/grey_600</item>
+        <item name="android:layout_marginLeft">@dimen/margin_normal_15</item>
+        <item name="android:layout_marginRight">@dimen/margin_normal_15</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/small_comment_fragment_text</item>
+    </style>
+
+    <style name="simple_tac_title">
+        <item name="android:textColor">@color/grey_600</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="simple_tac_content" parent="simple_tac_title">
+        <item name="android:textColor">@color/actionbar_title_text</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="item_separator_1dp">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:background">@color/grey</item>
+    </style>
+
+    <style name="item_separator_1dp.no_margin">
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+    </style>
+
+    <style name="item_separator_1dp.no_margin.big">
+        <item name="android:layout_height">2dp</item>
+    </style>
+
+    <style name="item_separator_1dp.filters">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="input_layout_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="input_text_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+    </style>
+
+    <style name="input_edit_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:inputType">text</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="input_edit_text.disable">
+        <item name="android:enabled">false</item>
+    </style>
+
+    <style name="item_list_important_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/actionbar_title_text</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="item_list_minor_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/grey_600</item>
+    </style>
+
+    <style name="item_contact_description">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="item_contact_description_icon">
+        <item name="android:layout_width">16dp</item>
+        <item name="android:layout_height">16dp</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:tint">@color/orange</item>
+    </style>
+
+    <style name="empty_text">
+        <item name="android:layout_margin">@dimen/margin_normal_15</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="spinner_text_default">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:text">@string/spinner_default_text_selecte</item>
+    </style>
+
+    <!--Style for add automatic payment service-->
+    <style name="ll_input_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <!--Style for add automatic payment service-->
+
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent" tools:targetApi="lollipop">@color/orange</item>
+    </style>
+
+    <style name="text_grey_my_data_label_value">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFA8A8A8</item>
+    </style>
+
+    <style name="title_insurance_item">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#47525E</item>
+    </style>
+
+    <style name="insurance_title">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="LatamDeviceDiagnosticCameraTestButtonStyle">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:text">@string/capture_image</item>
+    </style>
+
+    <style name="text_movement_detail">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/text_size_detail_movement</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:paddingBottom">18dp</item>
+    </style>
+
+    <style name="text_movement_detail_title" parent="text_movement_detail">
+        <item name="android:textColor">@color/text_color_gray</item>
+    </style>
+
+    <style name="text_movement_detail_value" parent="text_movement_detail">
+        <item name="android:textColor">@color/text_color_dark_gray</item>
+    </style>
+
+    <style name="separator_movement_detail">
+        <item name="android:layout_marginEnd">@dimen/margin_detail_movement</item>
+        <item name="android:layout_marginStart">@dimen/margin_detail_movement</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+    <style name="text_filter_item_active">
+        <item name="android:textSize">@dimen/text_size_filter_item</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="text_filter_title_active">
+        <item name="android:textSize">@dimen/text_size_filter_title</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="text_filter_item_title">
+        <item name="android:textSize">@dimen/text_size_filter_item</item>
+        <item name="android:textColor">@color/text_color_gray</item>
+    </style>
+
+    <style name="text_filter_item_error">
+        <item name="android:textSize">@dimen/text_size_filter_error</item>
+        <item name="android:textColor">@android:color/holo_red_light</item>
+    </style>
+
+    <style name="filter_sorted_spinner">
+        <item name="android:paddingStart">@dimen/padding_filter_spinner</item>
+        <item name="android:paddingEnd">@dimen/padding_filter_spinner</item>
+        <item name="android:paddingTop">@dimen/padding_filter_spinner</item>
+        <item name="android:paddingBottom">@dimen/padding_filter_spinner</item>
+        <item name="android:layout_marginStart">@dimen/margin_filter_spinner</item>
+        <item name="android:layout_marginEnd">@dimen/margin_filter_spinner</item>
+        <item name="android:layout_marginTop">@dimen/margin_filter_spinner</item>
+        <item name="android:layout_marginBottom">@dimen/margin_filter_spinner</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textSize">@dimen/text_size_filter_item</item>
+        <item name="android:textColor">@color/text_color_gray</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="text_tc_consolidated_extra_info">
+        <item name="android:textSize">@dimen/text_size_small_12</item>
+        <item name="android:textColor">@color/dusty_grey</item>
+    </style>
+
+    <style name="text_tc_consolidated_extra_info_number">
+        <item name="android:textSize">@dimen/text_size_small_14</item>
+        <item name="android:textColor">@color/dusty_grey</item>
+    </style>
+
+    <style name="text_tc_consolidated_extra_info_description">
+        <item name="android:textSize">@dimen/text_size_small_14</item>
+        <item name="android:textColor">@color/shuttle_gray</item>
+    </style>
+
+    <style name="text_detail_tc_movement_commerce_name">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/text_color_black_darker</item>
+    </style>
+
+    <style name="text_detail_tc_movement_commerce_subtitle">
+        <item name="android:textSize">@dimen/text_size_small_14</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginTop">@dimen/margin_normal_15</item>
+        <item name="android:textColor">@color/text_color_gray</item>
+    </style>
+
+    <style name="text_detail_tc_movement_commerce_values">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/text_color_black_darker</item>
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
+
+    <style name="text_shortcut_card">
+        <item name="android:textSize">@dimen/text_size_normal_12</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/gray_acadia</item>
+    </style>
+
+    <style name="text_consolidated_image_card">
+        <item name="android:textSize">@dimen/text_size_normal_14</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text_consolidated_image_card_title">
+        <item name="android:textSize">@dimen/text_size_normal_17</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text_consolidated_image_card_title_virtual">
+        <item name="android:textSize">@dimen/text_size_big_24</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text_show_detail_debit_card">
+        <item name="android:textSize">@dimen/text_size_big_18</item>
+        <item name="android:textColor">@color/color_dialog_title</item>
+    </style>
+    <style name="text_show_detail_debit_card_30">
+        <item name="android:textSize">@dimen/text_size_big_30</item>
+        <item name="android:textColor">@color/color_dialog_title</item>
+    </style>
+    <style name="text_show_detail_debit_card_error">
+        <item name="android:textSize">@dimen/text_size_normal_12</item>
+        <item name="android:textColor">@color/red_error</item>
+    </style>
+    <style name="text_show_detail_debit_card_error_30">
+        <item name="android:textSize">@dimen/text_size_big_30</item>
+        <item name="android:textColor">@color/red_error</item>
+    </style>
+
+    <style name="text_consolidated_image_card_numbers">
+        <item name="android:textSize">@dimen/text_size_normal_18</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text_consolidated_image_card_notification">
+        <item name="android:textSize">@dimen/text_size_normal_16</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text_consolidated_image_card_dates">
+        <item name="android:textSize">@dimen/text_size_normal_12</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CustomCardViewStyle" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">4dp</item>
+        <item name="cornerSizeTopLeft">8dp</item>
+        <item name="cornerSizeBottomRight">16dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <style name="btn_detail_tc_movement_see_more">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundTint">@android:color/transparent</item>
+    </style>
+
+    <style name="btn_regret">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundTint">@android:color/transparent</item>
+    </style>
+
+    <style name="btn_downProduct">
+        <item name="android:textSize">@dimen/text_size_normal_16</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@drawable/radius_button_down_product</item>
+    </style>
+
+    <style name="text_detail_movement_transfer_small_title">
+        <item name="android:textSize">@dimen/text_size_small_14</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_color_gray</item>
+    </style>
+
+    <style name="text_detail_movement_transfer_medium_title">
+        <item name="android:textSize">@dimen/text_size_normal_20</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_color_black_darker</item>
+    </style>
+
+    <style name="text_detail_movement_transfer_value" parent="text_detail_movement_transfer_medium_title">
+        <item name="android:textSize">@dimen/text_size_normal_16</item>
+    </style>
+
+    <style name="text_detail_movement_transfer_big_title" parent="text_detail_movement_transfer_medium_title">
+        <item name="android:textSize">@dimen/text_size_big_28</item>
+    </style>
+
+    <style name="text_movement_detail_history_title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_color_black_darker</item>
+    </style>
+
+    <style name="text_movement_detail_history_value">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/shuttle_gray</item>
+    </style>
+
+    <style name="background_product_package">
+        <item name="android:layout_marginStart">@dimen/margin_normal_10</item>
+        <item name="android:layout_marginTop">@dimen/margin_normal_15</item>
+        <item name="android:layout_marginEnd">@dimen/margin_normal_10</item>
+        <item name="android:background">@drawable/background_product_package</item>
+        <item name="android:elevation" tools:targetApi="lollipop">@dimen/elevation_2</item>
+    </style>
+
+    <style name="txt_qr_scan_title">
+        <item name="android:textSize">@dimen/text_size_normal_20</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="txt_credit_card_big_title">
+        <item name="android:textSize">@dimen/text_size_big_18</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="txt_credit_card_small_title">
+        <item name="android:textSize">@dimen/text_size_normal_12</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="txt_credit_card_payment_available">
+        <item name="android:textSize">@dimen/text_size_normal_12</item>
+        <item name="android:textColor">@color/text_color_black_darker</item>
+    </style>
+
+    <style name="txt_credit_card_resume_title_big">
+        <item name="android:textSize">@dimen/text_size_normal_16</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="txt_credit_card_resume_value_big">
+        <item name="android:textSize">@dimen/text_size_normal_16</item>
+        <item name="android:textColor">@color/text_color_black_darker</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="txt_credit_card_resume_title_xbig" parent="txt_credit_card_resume_value_big">
+        <item name="android:textSize">@dimen/text_size_normal_19</item>
+    </style>
+
+    <style name="txt_credit_card_resume_title_xbig_white" parent="txt_credit_card_resume_value_big">
+        <item name="android:textSize">@dimen/text_size_medium_27</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="txt_credit_card_resume_notif_xbig_white" parent="txt_credit_card_resume_value_big">
+        <item name="android:textSize">@dimen/text_size_big_24</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="txt_credit_card_payment_notif_xbig_white">
+        <item name="android:textSize">@dimen/text_size_big_22</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="txt_credit_card_resume_small">
+        <item name="android:textSize">@dimen/text_size_normal_14</item>
+        <item name="android:textColor">@color/shuttle_gray</item>
+    </style>
+
+    <style name="txt_credit_card_resume_small_white">
+        <item name="android:textSize">@dimen/text_size_normal_16</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="txt_credit_card_resume_detail_small">
+        <item name="android:textSize">@dimen/text_size_normal_12</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="txt_credit_card_resume_detail_opaque">
+        <item name="android:textSize">@dimen/text_size_normal_12</item>
+        <item name="android:textColor">@color/dusty_grey</item>
+    </style>
+
+    <style name="txt_credit_card_empty_state">
+        <item name="android:textSize">@dimen/text_size_big_22</item>
+        <item name="android:textColor">@color/mime_shaft</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="txt_dialog_more_options">
+        <item name="android:textSize">@dimen/text_size_normal_17</item>
+        <item name="android:textColor">@color/color_dialog_title</item>
+    </style>
+
+    <style name="voucher_separator">
+        <item name="android:layout_height">@dimen/margin_small_1</item>
+        <item name="android:background">@color/voucher_separator</item>
+    </style>
+
+    <style name="button_favorite">
+        <item name="android:padding">@dimen/margin_small_8</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/border_round_orange</item>
+    </style>
+
+    <style name="button_navigation_light" parent="android:Widget.Material.Button.Borderless">
+        <item name="android:padding">@dimen/margin_small_8</item>
+        <item name="android:textSize">@dimen/text_size_normal_16</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/border_round_24</item>
+        <item name="android:layout_marginStart">@dimen/margin_navigation_button</item>
+        <item name="android:layout_marginEnd">@dimen/margin_navigation_button</item>
+        <item name="android:layout_marginBottom">@dimen/margin_navigation_button_bottom</item>
+    </style>
+
+    <style name="button_navigation_modo">
+        <item name="android:padding">@dimen/margin_small_8</item>
+        <item name="android:textSize">@dimen/text_size_normal_16</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/orange_detail</item>
+        <item name="android:layout_marginStart">@dimen/margin_navigation_button</item>
+        <item name="android:layout_marginEnd">@dimen/margin_navigation_button</item>
+        <item name="android:layout_marginBottom">@dimen/margin_navigation_button_bottom</item>
+    </style>
+
+    <style name="button_full_width">
+        <item name="android:padding">@dimen/margin_small_8</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/background_btn_full_width</item>
+        <item name="android:layout_marginBottom">@dimen/margin_navigation_button_bottom</item>
+    </style>
+
+    <style name="button_fake_recycler">
+        <item name="android:padding">@dimen/margin_small_8</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:paddingStart">@dimen/margin_normal_20</item>
+        <item name="android:paddingTop">@dimen/margin_normal_20</item>
+        <item name="android:paddingBottom">@dimen/margin_normal_20</item>
+        <item name="android:background">@drawable/background_fake_recycler_button</item>
+    </style>
+
+    <style name="text_information_title">
+        <item name="android:textSize">@dimen/text_size_medium_26</item>
+        <item name="android:textColor">@color/charcoal</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+
+
+    <style name="text_information_result">
+        <item name="android:fontFamily" tools:ignore="NewApi">@font/roboto_medium_font</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@color/charcoal</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="text_information_title_normal">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@color/black_delivery</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="text_information_subtitle">
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="text_information_description">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/shuttle_gray</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="text_information_description_black">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/color_dialog_title</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="text_information_description_gray">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dusty_grey</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="text_information_warning">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/faux_cyan_blue_azure</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="text_information_description_light">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/other_light_gray</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+
+    <style name="text_information_installments">
+        <item name="android:fontFamily" tools:ignore="NewApi">@font/roboto_medium_font</item>
+        <item name="android:textSize">@dimen/text_size_normal_20</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/charcoal</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="text_information_footer">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/shuttle_gray</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="text_information_description_opaque">
+        <item name="android:textSize">@dimen/text_size_normal_14</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dusty_grey</item>
+    </style>
+
+    <style name="text_information_description_acadia">
+        <item name="android:textSize">@dimen/text_size_normal_14</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/gray_acadia</item>
+    </style>
+
+    <style name="text_information_description_shuttle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/shuttle_gray</item>
+    </style>
+
+    <style name="text_information_description_hightlight">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_green</item>
+    </style>
+
+    <style name="text_information_description_active">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="text_information_additional_subtitle">
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:textSize">@dimen/text_size_small_14</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="otp_validator_text_entry">
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">2</item>
+        <item name="android:background">@drawable/border_round_neutral_solid</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:paddingEnd">14dp</item>
+        <item name="android:paddingTop">13dp</item>
+        <item name="android:paddingBottom">13dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black_delivery</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="otp_validator_onboard">
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:background">@drawable/otp_border_onboard</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:paddingEnd">14dp</item>
+        <item name="android:paddingTop">13dp</item>
+        <item name="android:paddingBottom">13dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black_delivery</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="tco_coordinate">
+        <item name="android:maxLength">2</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:paddingEnd">14dp</item>
+        <item name="android:paddingTop">13dp</item>
+        <item name="android:paddingBottom">13dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black_delivery</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="text_dimo_qr_instructions">
+        <item name="android:textSize">@dimen/text_size_small_14</item>
+        <item name="android:textColor">@color/black_delivery</item>
+    </style>
+
+    <style name="WarningAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/rounded_dialog_white_shape</item>
+    </style>
+
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/background_round_dialog</item>
+    </style>
+
+    <style name="CustomRatingBar" parent="Widget.AppCompat.RatingBar">
+
+    </style>
+
+    <style name="big_title">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="text_header_shortcut">
+        <item name="android:textSize">@dimen/text_size_normal_12</item>
+        <item name="android:textColor">@color/black_delivery</item>
+    </style>
+
+    <style name="consolidated_button_see_more">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:text">@string/text_see_more</item>
+        <item name="android:textSize">@dimen/text_size_normal_12</item>
+    </style>
+
+    <style name="consolidated_section_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/text_color_black_darker</item>
+        <item name="android:textSize">@dimen/text_size_normal_16</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="consolidated_section_next_expiration_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_small_14</item>
+    </style>
+
+    <style name="pfm_header_tab_text" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/text_color_black_darker</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="pfm_header_tab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorHeight">@dimen/elevation_2</item>
+        <item name="tabIndicatorColor">@color/text_color_black_darker</item>
+    </style>
+
+    <style name="pfm_navigation_button">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:minWidth">30dp</item>
+        <item name="android:alpha">0.1</item>
+    </style>
+
+    <style name="text_suggested_contact_title">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="my_accounts_title_normal">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/charcoal</item>
+    </style>
+
+    <style name="my_accounts_title_bold">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/charcoal</item>
+    </style>
+
+    <style name="my_accounts_details_big_title_normal">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/charcoal</item>
+    </style>
+
+    <style name="text_suggested_contact_description">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">@dimen/contact_name_box_size</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="orange_full_width_button_rounded" parent="full_width_button">
+        <item name="android:background">@drawable/rounded_button_orange</item>
+    </style>
+
+    <style name="custom_operations_following_tab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorHeight">@dimen/elevation_2</item>
+        <item name="tabIndicatorColor">@color/orange_button_loading</item>
+        <item name="tabTextColor">@color/charcoal</item>
+        <item name="tabSelectedTextColor">@color/orange_button_loading</item>
+        <item name="tabTextAppearance">@style/TabLayoutTextAppearance</item>
+    </style>
+
+    <style name="TabLayoutTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/text_size_small_12</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="CustomDialog" />
+
+    <style name="CustomDialog.Title" parent="@style/TextAppearance.AppCompat.Title">
+        <item name="android:textSize">@dimen/text_size_normal_16</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/charcoal</item>
+    </style>
+
+    <style name="RatingBar">
+        <item name="colorControlActivated">@color/orange_button_loading</item>
+    </style>
+
+    <style name="dialog_information_title">
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">@font/roboto_medium_font</item>
+        <item name="android:textColor">@color/black_delivery</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="button_oval_tango">
+        <item name="android:padding">@dimen/margin_small_8</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:stateListAnimator" tools:ignore="NewApi">@null</item>
+        <item name="android:background">@drawable/border_oval_orange_tango</item>
+    </style>
+
+    <style name="button_just_border_orange">
+        <item name="android:layout_marginTop">@dimen/margin_small_6</item>
+        <item name="android:background">@drawable/border_round_orange_just_border</item>
+        <item name="android:paddingTop">@dimen/margin_small_5</item>
+        <item name="android:paddingBottom">@dimen/margin_small_5</item>
+        <item name="android:paddingStart">@dimen/margin_normal_15</item>
+        <item name="android:paddingEnd">@dimen/margin_normal_15</item>
+        <item name="android:textColor">@color/color_pfm_fixed_holding_title_values_options</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/text_size_small_14</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="info_for_titles">
+        <item name="android:textColor">@color/color_pfm_fixed_holding_title_values_card_title</item>
+        <item name="android:textSize">@dimen/text_size_normal_16</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginTop">@dimen/margin_big_25</item>
+    </style>
+
+    <style name="info_for_titles_desc">
+        <item name="android:textColor">@color/charcoal</item>
+        <item name="android:textSize">@dimen/text_size_normal_16</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginTop">@dimen/margin_normal_10</item>
+    </style>
+
+    <style name="info_for_titles_price_desc">
+        <item name="android:textColor">@color/charcoal</item>
+        <item name="android:textSize">@dimen/text_size_normal_20</item>
+        <item name="android:layout_marginTop">@dimen/margin_small_7</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="button_text_simple">
+        <item name="android:padding">@dimen/margin_small_8</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/sonic_silver</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="button_text_simple_on" parent="button_text_simple">
+        <item name="android:textColor">@color/orange</item>
+    </style>
+
+    <style name="CustomAlertDialogCongrats" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/background_round_congrats_rating</item>
+    </style>
+
+    <style name="CustomAlertDialogComments" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/background_round_comments_rating</item>
+    </style>
+
+    <style name="CustomAlertDialogLogin" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/background_round_dialog_login</item>
+    </style>
+
+    <style name="AlertDialogCampaignBiometric" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/background_round_dialog_campign_biometric
+        </item>
+    </style>
+
+    <style name="AlertDialogDisabled" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/background_round_dialog_campign_biometric
+        </item>
+    </style>
+
+    <style name="txt_modo_payment_big_title_orange">
+        <item name="android:fontFamily" tools:ignore="NewApi">@font/roboto_medium_font</item>
+        <item name="android:textSize">@dimen/text_size_normal_16</item>
+        <item name="android:textColor">@color/orange</item>
+    </style>
+
+    <style name="txt_modo_payment_big_title">
+        <item name="android:fontFamily" tools:ignore="NewApi">@font/roboto_medium_font</item>
+        <item name="android:textSize">@dimen/text_size_normal_14</item>
+        <item name="android:textColor">@color/cardview_account</item>
+    </style>
+
+
+    <style name="txt_modo_payment_big_name_card">
+        <item name="android:fontFamily" tools:ignore="NewApi">@font/roboto_medium_font</item>
+        <item name="android:textSize">@dimen/text_size_normal_15</item>
+        <item name="android:textColor">@color/cardview_title</item>
+    </style>
+
+    <style name="txt_modo_payment_big_number_card">
+        <item name="android:fontFamily" tools:ignore="NewApi">@font/roboto_medium_font</item>
+        <item name="android:textSize">@dimen/text_size_normal_20</item>
+        <item name="android:textColor">@color/cardview_title</item>
+    </style>
+
+    <style name="txt_modo_payment_date_label">
+        <item name="android:fontFamily" tools:ignore="NewApi">@font/roboto_medium_font</item>
+        <item name="android:textSize">@dimen/margin_small_8</item>
+        <item name="android:textColor">@color/cardview_title</item>
+    </style>
+
+    <style name="txt_modo_payment_date">
+        <item name="android:fontFamily" tools:ignore="NewApi">@font/roboto_medium_font</item>
+        <item name="android:textSize">@dimen/margin_normal_12</item>
+        <item name="android:textColor">@color/cardview_title</item>
+    </style>
+
+    <style name="txt_modo_payment_subtitle">
+        <item name="android:fontFamily" tools:ignore="NewApi">@font/roboto_medium_font</item>
+        <item name="android:textSize">@dimen/text_size_big_18</item>
+        <item name="android:textColor">@color/cardview_account</item>
+    </style>
+
+    <style name="txt_modo_payment_info">
+        <item name="android:fontFamily" tools:ignore="NewApi">@font/roboto</item>
+        <item name="android:textSize">@dimen/text_size_small_12</item>
+        <item name="android:textColor">@color/cardview_account</item>
+    </style>
+
+    <style name="txt_info_box">
+        <item name="android:paddingHorizontal" tools:ignore="NewApi">@dimen/margin_normal_14</item>
+        <item name="android:paddingVertical" tools:ignore="NewApi">@dimen/margin_small_8</item>
+        <item name="android:drawablePadding">@dimen/margin_small_8</item>
+        <item name="android:textSize">@dimen/text_size_small_12</item>
+        <item name="android:textColor">@color/faux_cyan_blue_azure</item>
+        <item name="android:background">@drawable/background_info_block_blue</item>
+    </style>
+
+    <style name="txt_warning_box">
+        <item name="android:paddingHorizontal" tools:ignore="NewApi">@dimen/margin_normal_14</item>
+        <item name="android:paddingVertical" tools:ignore="NewApi">@dimen/margin_small_8</item>
+        <item name="android:drawablePadding">@dimen/margin_small_8</item>
+        <item name="android:textSize">@dimen/text_size_small_12</item>
+        <item name="android:textColor">@color/color_red_error</item>
+        <item name="android:background">@drawable/background_warning_block_red</item>
+    </style>
+
+    <style name="title_banner_security_login">
+        <item name="android:layout_marginLeft">@dimen/margin_small_3</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/size_normal_13</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:text">@string/title_banner_security</item>
+    </style>
+
+    <style name="subtitle_banner_security_login">
+        <item name="android:layout_marginLeft">@dimen/margin_big_23</item>
+        <item name="android:layout_marginBottom">@dimen/margin_small_9</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_normal_11</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:text">@string/subtitle_banner_security</item>
+    </style>
+
+    <style name="buho_facil_pass_text_entry">
+        <item name="android:background">@drawable/background_pass_text</item>
+        <item name="android:inputType">numberPassword</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">15dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:textSize">@dimen/size_normal_32</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:hint">*</item>
+    </style>
+
+    <style name="text_error_message">
+        <item name="android:textSize">@dimen/font_text_normal_14</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/color_red_error_unbox</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="text_installment_info_item">
+        <item name="android:textSize">@dimen/text_size_small_14</item>
+        <item name="android:textColor">@color/orange_tango</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_installment_info_quantity">
+        <item name="android:textSize">@dimen/text_size_normal_18</item>
+        <item name="android:textColor">@color/charcoal</item>
+    </style>
+
+    <style name="radio_group_dollar_mep">
+        <item name="android:layout_marginTop">@dimen/margin_normal_20</item>
+        <item name="android:textSize">@dimen/text_size_normal_18</item>
+        <item name="android:textColor">@color/charcoal</item>
+    </style>
+
+    <style name="TextInputLabelValue" parent="AppTheme">
+        <item name="android:textColorHint">@color/orange</item>
+        <item name="android:textSize">@dimen/text_size_big_24</item>
+        <item name="colorAccent">@color/orange</item>
+        <item name="android:colorAccent">@color/orange</item>
+        <item name="colorControlNormal">@color/orange</item>
+        <item name="android:colorControlNormal">@color/orange</item>
+        <item name="colorControlActivated">@color/orange</item>
+        <item name="android:colorControlActivated">@color/orange</item>
+    </style>
+
+    <style name="TextInputLabel" parent="AppTheme">
+        <item name="android:textSize">@dimen/text_size_normal_16</item>
+    </style>
+
+    <style name="TextInputLabelHint" parent="AppTheme">
+        <item name="android:textSize">@dimen/text_size_normal_14</item>
+    </style>
+
+    <style name="TextInputLabelHelper" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/fci_header_title</item>
+        <item name="android:textSize">@dimen/text_size_normal_14</item>
+    </style>
+
+    <style name="TextInputLabelHint12" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/text_size_normal_12</item>
+        <item name="android:textColor">@color/dusty_grey</item>
+    </style>
+
+    <style name="TextInputLabelHelper12" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/dusty_grey</item>
+        <item name="android:textSize">@dimen/text_size_normal_12</item>
+    </style>
+
+    <style name="TextInputLabelError12" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/text_size_normal_12</item>
+        <item name="android:textColor">@color/red_error</item>
+    </style>
+
+    <style name="TextInputLabelError" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/color_red_error</item>
+        <item name="android:textSize">@dimen/text_size_normal_14</item>
+    </style>
+
+    <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.Dense">
+        <item name="android:textColorHint">@color/silver_gray</item>
+        <item name="colorControlNormal">@color/orange_blaze</item>
+        <item name="colorControlActivated">@color/orange_blaze</item>
+        <item name="colorControlHighlight">@color/orange_blaze</item>
+    </style>
+
+    <!-- BottomSheetDialog-->
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/rounded_bottom_sheet</item>
+    </style>
+
+    <style name="list_menu_util_keys">
+        <item name="android:layout_marginTop">@dimen/margin_normal_16</item>
+        <item name="android:layout_marginLeft">@dimen/margin_small_5</item>
+        <item name="android:layout_marginRight">@dimen/margin_small_5</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">@font/roboto</item>
+        <item name="android:textSize">@dimen/text_size_normal_16</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingStart">@dimen/margin_normal_20</item>
+        <item name="android:paddingEnd">@dimen/margin_normal_20</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/background_white_button_radius_8</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/charcoal</item>
+    </style>
+
+    <style name="FullScreenDialogTransparentStyle" parent="Theme.AppCompat.Dialog">
+        <!-- Set this to true if you want Full Screen without status bar -->
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- This is important! Don't forget to set window background -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="SpinnerTheme" parent="android:Widget.Material.Spinner.Underlined">
+        <item name="android:popupBackground">@drawable/rounded_background_spinner</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:dropDownVerticalOffset">10dip</item>
+        <item name="overlapAnchor">false</item>
+    </style>
+
+    <style name="CustomChip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="android:checkable">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="chipIconVisible">false</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="closeIconVisible">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_size_small_12</item>
+        <item name="rippleColor">@color/mtrl_choice_chip_ripple_color</item>
+        <item name="android:enabled">true</item>
+    </style>
+
+    <style name="Colors_Widget.MaterialComponents.Chip.Choice" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="android:textColor">@color/chip_text_color_choise_onboard</item>
+        <item name="chipBackgroundColor">@color/chipbackgroundcolor_adddata</item>
+    </style>
+
+    <style name="ToolbarOnboard" parent="ToolBarStyle.Base" />
+
+    <style name="ToolBarStyle.Base" parent="">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <style name="ToolBarStyle.Event" parent="ToolbarOnboard">
+        <item name="titleTextAppearance">@style/TextAppearance.Widget.Event.Toolbar.Title</item>
+    </style>
+
+    <style name="TextAppearance.Widget.Event.Toolbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/text_size_normal_18</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ThinnerChip" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="chipCornerRadius">8dp</item>
+        <item name="chipMinHeight">60dp</item>
+        <item name="android:textAppearance">@style/SmallerText</item>
+        <item name="android:textColor">@color/chip_text_color_choise_onboard</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="android:checkable">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="chipIconVisible">false</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="closeIconVisible">false</item>
+        <item name="android:gravity">center</item>
+        <item name="chipStrokeColor">@color/chipstrokecolorspouse</item>
+        <item name="chipBackgroundColor">@color/chipbackgroundcolorspouse</item>
+    </style>
+
+    <style name="SmallerText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ShowPassword">
+        <item name="android:background">@drawable/slt_btn_show_password</item>
+        <item name="android:textOn">@null</item>
+        <item name="android:textOff">@null</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="RoundedSquare">
+        <item name="cornerSize">15%</item>git status
+    </style>
+
+    <!-- Base application theme Libertad. -->
+    <style name="AppThemeLibertad.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/onboard_libertad</item>
+        <item name="colorPrimaryDark">@color/onboard_libertad</item>
+        <item name="colorAccent">@color/black_libertad</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="EditTextLibertad" parent="Widget.AppCompat.EditText">
+        <item name="colorControlNormal">@color/gray_acadia</item>
+        <item name="colorControlActivated">@color/black_libertad</item>
+        <item name="colorControlHighlight">@color/black_libertad</item>
+    </style>
+
+    <style name="text_title_gray_18">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/shuttle_gray</item>
+    </style>
+
+    <style name="text_description_little_gray_12">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dusty_grey</item>
+    </style>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Insert your shape here: -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/button_orange_background_selector" />
+    <padding
+        android:right="@dimen/margin_normal_20"
+        android:left="@dimen/margin_normal_15"/>
+
+    <corners android:radius="@dimen/margin_big_24"/>
+</shape>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#fafafa" />
+            <padding
+                android:bottom="@dimen/margin_normal_12"
+                android:left="@dimen/margin_normal_14"
+                android:right="0dp"
+                android:top="@dimen/margin_normal_12" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/arrow_right"
+        android:gravity="end|center_vertical">
+    </item>
+</layer-list>
